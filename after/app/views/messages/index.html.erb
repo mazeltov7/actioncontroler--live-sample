@@ -1,0 +1,12 @@
+<h1>Chat</h1>
+
+<ul id="chat">
+  <%= render @messages %>
+</ul>
+
+<%= form_for Message.new, remote: true do |f| %>
+  <%= f.text_field :name, placeholder: 'Name' %>
+  <br>
+  <%= f.text_area :content, placeholder: 'Write something...' %>
+  <%= f.submit "Send" %>
+<% end %>
