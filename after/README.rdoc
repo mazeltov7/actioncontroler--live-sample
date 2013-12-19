@@ -1,9 +1,9 @@
 == README
 
 
-Ruby 2.0.0p247
-Rails 4.0.0
-Mysql Ver 14.14
+*Ruby 2.0.0p247
+*Rails 4.0.0
+*Mysql Ver 14.14
 
-puma 2.6.0
-redis 2.6.16
+*puma 2.6.0
+*redis 2.6.16
